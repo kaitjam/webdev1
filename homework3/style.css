@@ -1,0 +1,23 @@
+body{
+	background-color: #ff5050;
+	color: #000066;
+	padding: 10;
+	font:font-family: 'Oswald', sans-serif;}
+h1 {background-color: #ff5050;
+	color: #000066;
+	padding: 10;
+	font:font-family: 'Slabo 27px', serif;}
+p{padding: 5px;
+	margin:5px;
+	color: white;}
+h2{font-family: 'Oleo Script', cursive;}
+h4{color: #000066
+	padding: 10
+	font: 'Open Sans Condensed';
+	font sans-serif;
+	font-weight: bold;}
+table{background-color: #a8ff52;
+	color: #000066
+	padding: 10
+	font: 'Open Sans Condensed';
+	font sans-serif;}
