@@ -1,0 +1,34 @@
+css
+
+
+
+/* id---classes---tags---> */
+#special {
+  background: hotpink;
+  padding: 25px;
+  margin: 20px;
+}
+.nav .list-item {
+  float:left;
+/*   background: grey; */
+  margin: 0 10px 0 10px;  
+}
+
+.nav .list-item a {
+ display: block;
+ height: 100%;
+/*  weight: 100% */
+ background: pink;
+ padding: 10px;
+ border-radius: 5px;
+}
+.nav a:hover {
+  background: black;
+}
+.nav li a:hover {
+  background: green;
+}
+
+.nav #special a:hover {
+  background: red;
+}
