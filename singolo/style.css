@@ -1,4 +1,80 @@
-css
+*  {
+  -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+           box-sizing: border-box; 
+}
+
+
+.clearfix:before,
+.clearfix:after {
+  content: " "; 
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+
+@font-face {
+  font-family: 'lato-black';
+  src: url('../fonts/lato-black/Lato-Bla-webfont.eot?#iefix') format('embedded-opentype'), 
+       url('../fonts/lato-black/Lato-Bla-webfont.woff') format('woff'), 
+       url('../fonts/lato-black/Lato-Bla-webfont.ttf')  format('truetype'),
+       url('../fonts/lato-black/Lato-Bla-webfont.svg#Lato-Bla-webfont') format('svg');
+}
+
+@font-face {
+  font-family: 'lato-light';
+  src: url('../fonts/lato-light/Lato-Lig-webfont.eot?#iefix') format('embedded-opentype'), 
+       url('../fonts/lato-light/Lato-Lig-webfont.woff') format('woff'), 
+       url('../fonts/lato-light/Lato-Lig-webfont.ttf')  format('truetype'),
+       url('../fonts/lato-light/Lato-Lig-webfont.svg#Lato-Lig-webfont') format('svg');
+}
+
+@font-face {
+  font-family: 'lato-light-italic';
+  src: url('../fonts/lato-light-italic/Lato-LigIta-webfont.eot?#iefix') format('embedded-opentype'), 
+       url('../fonts/lato-light-italic/Lato-LigIta-webfont.woff') format('woff'), 
+       url('../fonts/lato-light-italic/Lato-LigIta-webfont.ttf')  format('truetype'),
+       url('../fonts/lato-light-italic/Lato-LigIta-webfont.svg#Lato-Reg-webfont') format('svg');
+}
+
+@font-face {
+  font-family: 'lato-regular';
+  src: url('../fonts/lato-regular/Lato-Reg-webfont.eot?#iefix') format('embedded-opentype'), 
+       url('../fonts/lato-regular/Lato-Reg-webfont.woff') format('woff'), 
+       url('../fonts/lato-regular/Lato-Reg-webfont.ttf')  format('truetype'),
+       url('../fonts/lato-regular/Lato-Reg-webfont.svg#Lato-Reg-webfont') format('svg');
+}
+
+
+body {font-family: "lato-regular"}
+.header {background-color: #303441; height: 90px;
+	color:#FFFFFF; width:100%; font-family: 'lato-regular'}
+.logo {font-family: 'lato-regular'; }
+.nav {font-family: 'lato-regular'; float:right; }
+
+}
+.clear: both
+.headerbar {border: 6px
+			solid #373B4A;}
+.slider {background-color: #EB5055;height: 595px;}
+.images {}
+.sliderbar {border: 6px 
+			solid #EA676B}
+height="6px"}
+.services {background-color: #F2F2F2 }
+.servicedetails {float:left;}
+.servicesbar {border:6px solid #FFFFFF;}
+.Portfolio {}
+.portfolioNav {}
+.portfolioThumbs {float:left;}
+
 
 
 
